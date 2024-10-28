@@ -1,7 +1,7 @@
 start: ## Start the docker containers
 	@echo "Starting the docker containers"
 	@docker compose up -d
-	@echo "Containers started - http://localhost:8000"
+	@echo "Containers started - http://localhost:80"
 
 stop: ## Stop Containers
 	@docker compose down
